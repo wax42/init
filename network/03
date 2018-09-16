@@ -1,0 +1,1 @@
+ifconfig -a | grep -A 6 "en1:" | grep "ether" | cut -d ' ' -f 2
